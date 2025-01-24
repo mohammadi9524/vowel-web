@@ -74,7 +74,7 @@ export const action = async ({ request }) => {
     {
       variables: {
         productId: product.id,
-        variants: [{ id: variantId, price: "100.00" }],
+        variants: [{ id: variantId, price: "1000.00" }],
       },
     },
   );
